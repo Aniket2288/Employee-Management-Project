@@ -50,6 +50,14 @@ class EmployeeExperience(models.Model):
     company3desig = models.CharField(max_length=100,null=True)
     company3salary = models.CharField(max_length=100,null=True)
     company3duration= models.CharField(max_length=100, null=True)
+    company4salary = models.CharField(max_length=100,null=True)
+    company4duration= models.CharField(max_length=100, null=True)
 
     def __str__(self):
         return self.user.username
+    
+class hellouser(models.Model):
+    company1name = models.CharField(max_length=100, null=True)
+    company1desig = models.CharField(max_length=100,null=True)
+    company1salary = models.CharField(max_length=100,null=True)
+    company1duration= models.CharField(max_length=100, null=True)

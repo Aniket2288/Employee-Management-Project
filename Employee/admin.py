@@ -7,3 +7,4 @@ from .models import *
 admin.site.register(EmployeeDetails)
 admin.site.register(EmployeeEducation)
 admin.site.register(EmployeeExperience)
+admin.site.register(hellouser)
